@@ -9,3 +9,6 @@ use case: 로그아웃
 
 requirement: 관리자는 자전거 정보를 등록할 수 있다. 이때 입력하는 정보는 자전거 ID, 자전거 제품명이다.
 use case: 자전거 정보 등록
+
+requirement: 회원은 특정 자전거를 대여할 수 있다.
+use case: 자전거 대여
