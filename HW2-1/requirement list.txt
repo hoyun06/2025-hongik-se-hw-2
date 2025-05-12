@@ -3,3 +3,6 @@ use case: 회원 가입
 
 requirement: 회원은 로그인을 할 수 있다. 관리자는 주어진 ID와 비밀번호로 로그인한다.
 use case: 로그인
+
+requirement: 회원은 로그아웃을 할 수 있다. 로그아웃 시 시스템 접속이 종료된다.
+use case: 로그아웃
