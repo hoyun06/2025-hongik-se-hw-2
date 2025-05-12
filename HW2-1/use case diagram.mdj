@@ -2386,7 +2386,7 @@
 											"top": 326,
 											"width": 41,
 											"height": 13,
-											"text": "멤버"
+											"text": "유저"
 										},
 										{
 											"_type": "LabelView",
@@ -2397,7 +2397,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"width": 72,
+											"width": 79,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -2769,7 +2769,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"width": 72,
+											"width": 79,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -3245,7 +3245,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"width": 72,
+											"width": 79,
 											"height": 13,
 											"text": "(from Model)"
 										},
@@ -3861,7 +3861,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "멤버",
+					"name": "유저",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
