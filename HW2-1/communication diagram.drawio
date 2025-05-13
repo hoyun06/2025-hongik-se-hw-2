@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.4">
   <diagram name="페이지-1" id="acbt0nLhAi-fUhKICGcB">
     <mxGraphModel dx="1685" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,13 +29,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="moP1IjQAJDg3BQziUJU6-14" value="&lt;b&gt;2: submitSignUpInfo&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="moP1IjQAJDg3BQziUJU6-14" value="&lt;b&gt;2: submitSignUpInfo()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="120" y="168" as="sourcePoint" />
             <mxPoint x="200" y="168" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="moP1IjQAJDg3BQziUJU6-16" value="&lt;b&gt;2.1: signUp&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="moP1IjQAJDg3BQziUJU6-16" value="&lt;b&gt;2.1: signUp()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="380" y="170" as="sourcePoint" />
             <mxPoint x="460" y="170" as="targetPoint" />
@@ -82,13 +82,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvlYyYwGG8XTySucCO5U-8" value="&lt;b&gt;2: submitLoginInfo&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="nvlYyYwGG8XTySucCO5U-8" value="&lt;b&gt;2: submitLoginInfo()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130" y="508" as="sourcePoint" />
             <mxPoint x="210" y="508" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvlYyYwGG8XTySucCO5U-9" value="&lt;b&gt;2.1: login&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="nvlYyYwGG8XTySucCO5U-9" value="&lt;b&gt;2.1: login()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="510" as="sourcePoint" />
             <mxPoint x="470" y="510" as="targetPoint" />
@@ -109,13 +109,13 @@
         <mxCell id="nvlYyYwGG8XTySucCO5U-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="1" vertex="1">
           <mxGeometry x="360" y="761" width="140" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="nvlYyYwGG8XTySucCO5U-23" value="&lt;b&gt;1: logout&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="nvlYyYwGG8XTySucCO5U-23" value="&lt;b&gt;1: logout()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130" y="738" as="sourcePoint" />
             <mxPoint x="210" y="738" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvlYyYwGG8XTySucCO5U-24" value="&lt;b&gt;1.1: logout&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="nvlYyYwGG8XTySucCO5U-24" value="&lt;b&gt;1.1: logout()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="740" as="sourcePoint" />
             <mxPoint x="470" y="740" as="targetPoint" />
@@ -146,13 +146,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvlYyYwGG8XTySucCO5U-32" value="&lt;b&gt;2: submitBicycleInfo&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="nvlYyYwGG8XTySucCO5U-32" value="&lt;b&gt;2: submitBicycleInfo()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="130" y="1000" as="sourcePoint" />
             <mxPoint x="210" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nvlYyYwGG8XTySucCO5U-33" value="&lt;b&gt;2.1: addNewBicycle&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="nvlYyYwGG8XTySucCO5U-33" value="&lt;b&gt;2.1: addNewBicycle()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="390" y="1002" as="sourcePoint" />
             <mxPoint x="470" y="1002" as="targetPoint" />
