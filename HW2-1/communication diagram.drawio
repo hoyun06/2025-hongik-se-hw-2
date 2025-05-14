@@ -229,9 +229,10 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110" y="1770" as="sourcePoint" />
             <mxPoint x="190" y="1770" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4MyRHnNNQHZquPPOq6WB-42" value="&lt;b&gt;1.1 rentBike()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+        <mxCell id="4MyRHnNNQHZquPPOq6WB-42" value="&lt;b&gt;1.1 rentBicycle()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="452" y="1770" as="sourcePoint" />
             <mxPoint x="532" y="1770" as="targetPoint" />
