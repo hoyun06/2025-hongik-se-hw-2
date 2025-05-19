@@ -11,6 +11,7 @@ private:
 	string bikeId;
 	string name;
 public:
+	Bicycle(string bikeId, string name);
 	vector<string> getBicycleDetail();
 };
 
