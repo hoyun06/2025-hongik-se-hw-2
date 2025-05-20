@@ -21,7 +21,8 @@ public:
 	Member(string id, string password, string tel);
 	void login();
 	void logout();
-	string getId();
+	vector<string> getMemberDetail();
+	bool isLoggedIn();
 	void addRentedBicycles(Bicycle bicycle);
 	vector<Bicycle> listRentedBicycles();
 };
