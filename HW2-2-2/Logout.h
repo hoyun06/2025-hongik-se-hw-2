@@ -11,7 +11,7 @@ using namespace std;
 class Logout
 {
 private:
-	LogoutUI logoutUI;
+	LogoutUI* logoutUI;
 public:
 	Logout(ofstream& outFp, RegisteredMember& members);
 };

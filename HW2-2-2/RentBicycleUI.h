@@ -12,9 +12,9 @@ using namespace std;
 class RentBicycleUI
 {
 private:
-	RentBicycle rentBicycleControl;
+	RentBicycle* rentBicycleControl;
 public:
-	RentBicycleUI(RentBicycle rentBicycleControl);
+	RentBicycleUI(RentBicycle* rentBicycleControl);
 	void selectBicycle(ofstream& outFp, ifstream& inFp, RegisteredMember& members, RegisteredBicycle& bicycles);
 };
 

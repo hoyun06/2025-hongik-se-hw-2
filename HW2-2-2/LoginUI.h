@@ -11,9 +11,9 @@ using namespace std;
 class LoginUI
 {
 private:
-	Login loginControl;
+	Login* loginControl;
 public:
-	LoginUI(Login loginControl);
+	LoginUI(Login* loginControl);
 	void submitLoginInfo(ofstream& outFp, ifstream& inFp, RegisteredMember& members);
 };
 

@@ -11,9 +11,9 @@ using namespace std;
 class AddBicycleUI
 {
 private:
-	AddBicycle addBicycleControl;
+	AddBicycle* addBicycleControl;
 public:
-	AddBicycleUI(AddBicycle addBicycleControl);
+	AddBicycleUI(AddBicycle* addBicycleControl);
 	void submitBicycleInfo(ofstream& outFp, ifstream& inFp, RegisteredBicycle& bicycles);
 };
 

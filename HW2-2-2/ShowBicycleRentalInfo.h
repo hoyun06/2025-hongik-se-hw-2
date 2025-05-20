@@ -11,7 +11,7 @@ using namespace std;
 class ShowBicycleRentalInfo
 {
 private:
-	ShowBicycleRentalInfoUI showBicycleRentalInfoUI;
+	ShowBicycleRentalInfoUI* showBicycleRentalInfoUI;
 public:
 	ShowBicycleRentalInfo(ofstream& outFp, RegisteredMember& members);
 };
