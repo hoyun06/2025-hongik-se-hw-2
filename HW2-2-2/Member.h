@@ -15,7 +15,7 @@ private:
 	string id;
 	string password;
 	string tel;
-	bool isLoggedIn;
+	bool loggedIn;
 	BicycleCollection rentedBicycleCollection;
 public:
 	Member(string id, string password, string tel);
