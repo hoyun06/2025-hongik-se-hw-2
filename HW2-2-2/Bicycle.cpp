@@ -6,6 +6,11 @@ Bicycle::Bicycle(string bikeId, string name)
 	this->name = name;
 }
 
+string Bicycle::getBikeId()
+{
+	return this->bikeId;
+}
+
 vector<string> Bicycle::getBicycleDetail() 
 {
 	vector<string> v;
