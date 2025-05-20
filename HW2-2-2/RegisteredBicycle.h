@@ -3,6 +3,7 @@
 
 #include <string>
 
+#include "Bicycle.h"
 #include "BicycleCollection.h"
 
 using namespace std;

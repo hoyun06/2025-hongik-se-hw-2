@@ -1,6 +1,7 @@
 #ifndef BICYCLECOLLECION_H
 #define BICYCLECOLLECION_H
 
+#include <string>
 #include <vector>
 
 #include "Bicycle.h"

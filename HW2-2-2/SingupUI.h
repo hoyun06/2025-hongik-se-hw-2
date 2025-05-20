@@ -1,7 +1,10 @@
 #ifndef SIGNUPUI_H
 #define SIGNUPUI_H
 
+#include <fstream>
+
 #include "Signup.h"
+#include "RegisteredMember.h"
 
 class SignupUI
 {

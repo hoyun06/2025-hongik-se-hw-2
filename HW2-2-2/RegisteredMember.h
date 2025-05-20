@@ -3,6 +3,7 @@
 
 #include <string>
 
+#include "Member.h"
 #include "MemberCollection.h"
 
 using namespace std;

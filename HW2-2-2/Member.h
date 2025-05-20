@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 
+#include "Bicycle.h"
 #include "BicycleCollection.h"
 
 using namespace std;
