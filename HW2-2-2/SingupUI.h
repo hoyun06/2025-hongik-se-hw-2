@@ -11,6 +11,7 @@ class SignupUI
 private:
 	Signup signupControl;
 public:
+	SignupUI(Signup signupControl);
 	void submitSignupInfo(ofstream& outFp, ifstream& inFp, RegisteredMember& members);
 };
 
