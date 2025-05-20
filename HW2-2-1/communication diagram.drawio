@@ -359,8 +359,8 @@
         </mxCell>
         <mxCell id="gBwXuVbzLufZy-i5T6mZ-4" value="&lt;b&gt;1.1.1: addMember()&lt;/b&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry y="10" width="80" relative="1" as="geometry">
-            <mxPoint x="612" y="181" as="sourcePoint" />
-            <mxPoint x="692" y="181" as="targetPoint" />
+            <mxPoint x="604" y="181" as="sourcePoint" />
+            <mxPoint x="684" y="181" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
