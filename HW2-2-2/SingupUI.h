@@ -9,9 +9,9 @@
 class SignupUI
 {
 private:
-	Signup signupControl;
+	Signup* signupControl;
 public:
-	SignupUI(Signup signupControl);
+	SignupUI(Signup* signupControl);
 	void submitSignupInfo(ofstream& outFp, ifstream& inFp, RegisteredMember& members);
 };
 
