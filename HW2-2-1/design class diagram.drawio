@@ -190,7 +190,7 @@
         <mxCell id="TFJGV4PpI1u5BgHAH2rM-18" value="&lt;b&gt;- tel: string&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="owUqDL3eg5WfUYwN33RE-15" vertex="1">
           <mxGeometry y="95" width="357.37" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="TFJGV4PpI1u5BgHAH2rM-21" value="&lt;b&gt;- isLoggedIn: bool = false&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="owUqDL3eg5WfUYwN33RE-15" vertex="1">
+        <mxCell id="TFJGV4PpI1u5BgHAH2rM-21" value="&lt;b&gt;- loggedIn: bool = false&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="owUqDL3eg5WfUYwN33RE-15" vertex="1">
           <mxGeometry y="115" width="357.37" height="20" as="geometry" />
         </mxCell>
         <mxCell id="kKlBXN92RMfAySFVlkef-5" value="&lt;b&gt;- rentedBicycleCollection: BicycleCollection&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="owUqDL3eg5WfUYwN33RE-15" vertex="1">
