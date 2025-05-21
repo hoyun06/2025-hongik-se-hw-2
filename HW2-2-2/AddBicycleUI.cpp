@@ -6,6 +6,7 @@ AddBicycleUI::AddBicycleUI(AddBicycle* addBicycleControl)
 {
 	this->addBicycleControl = addBicycleControl;
 }
+
 void AddBicycleUI::submitBicycleInfo(ofstream& outFp, ifstream& inFp, RegisteredBicycle& bicycles)
 {
 	string bikeId, name;
