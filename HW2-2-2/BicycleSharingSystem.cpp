@@ -82,4 +82,7 @@ void BicycleSharingSystem::run()
 			break;
 		}
 	}
+
+	inFp.close();
+	outFp.close();
 }
