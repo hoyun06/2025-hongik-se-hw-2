@@ -10,7 +10,7 @@ RentBicycle::RentBicycle(ofstream& outFp, ifstream& inFp, RegisteredMember& memb
 vector<string> RentBicycle::rentBicycle(string bikeId, RegisteredMember& members, RegisteredBicycle& bicycles)
 {
 	Bicycle b = bicycles.findBicycle(bikeId);
-	Member m = members.getLoggedInMember();
-	m.addRentedBicycles(b);
+	Member* m = members.getLoggedInMember();
+	m->addRentedBicycles(b);
 	return b.getBicycleDetail();
 }

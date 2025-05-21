@@ -15,7 +15,7 @@ private:
 public:
 	void addMember(string id, string password, string tel);
 	Member* findMember(string id, string password);
-	Member getLoggedInMember();
+	Member* getLoggedInMember();
 };
 
 #endif 
