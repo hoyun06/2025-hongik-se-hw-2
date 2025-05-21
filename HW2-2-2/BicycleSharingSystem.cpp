@@ -20,6 +20,7 @@ void BicycleSharingSystem::run()
 
 	int menuLevel1 = 0, menuLevel2 = 0, isProgramExit = 0;
 	RegisteredMember members;
+	members.addMember("admin", "admin", "");
 	RegisteredBicycle bicycles;
 
 	while (!isProgramExit)
