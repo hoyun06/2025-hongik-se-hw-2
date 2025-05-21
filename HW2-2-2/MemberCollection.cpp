@@ -17,7 +17,7 @@ Member* MemberCollection::findMember(string id, string password)
 	}
 }
 
-vector<Member> MemberCollection::getAllMembers()
+vector<Member>* MemberCollection::getAllMembers()
 {
-	return members;
+	return &members;
 }

@@ -13,12 +13,12 @@ Member* RegisteredMember::findMember(string id, string password)
 
 Member* RegisteredMember::getLoggedInMember()
 {
-	vector<Member> members = this->registeredMemberCollection.getAllMembers();
-	for (int i = 0; i < members.size(); i++)
+	vector<Member>* members = this->registeredMemberCollection.getAllMembers();
+	for (int i = 0; i < members->size(); i++)
 	{
-		if (members[i].isLoggedIn())
+		if ((*members)[i].isLoggedIn())
 		{
-			return &members[i];
+			return &(*members)[i];
 		}
 	}
 }
