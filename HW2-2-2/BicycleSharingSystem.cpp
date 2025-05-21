@@ -76,6 +76,7 @@ void BicycleSharingSystem::run()
 			{
 			case 1:
 				isProgramExit = 1;
+				outFp << "6.1. 종료";
 				break;
 			}
 			break;
