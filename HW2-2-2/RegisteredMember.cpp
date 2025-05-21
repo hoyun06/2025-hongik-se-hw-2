@@ -6,7 +6,7 @@ void RegisteredMember::addMember(string id, string password, string tel)
 	this->registeredMemberCollection.addMember(member);
 }
 
-Member RegisteredMember::findMember(string id, string password)
+Member* RegisteredMember::findMember(string id, string password)
 {
 	return this->registeredMemberCollection.findMember(id, password);
 }

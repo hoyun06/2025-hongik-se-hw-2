@@ -9,6 +9,6 @@ Login::Login(ofstream& outFp, ifstream& inFp, RegisteredMember& members)
 
 void Login::login(string id, string password, RegisteredMember& members)
 {
-	Member m = members.findMember(id, password);
-	m.login();
+	Member* m = members.findMember(id, password);
+	m->login();
 }

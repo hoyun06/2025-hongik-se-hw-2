@@ -14,7 +14,7 @@ private:
 	MemberCollection registeredMemberCollection;
 public:
 	void addMember(string id, string password, string tel);
-	Member findMember(string id, string password);
+	Member* findMember(string id, string password);
 	Member getLoggedInMember();
 };
 

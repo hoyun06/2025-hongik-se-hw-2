@@ -14,7 +14,7 @@ private:
 	vector<Member> members;
 public:
 	void addMember(Member member);
-	Member findMember(string id, string password);
+	Member* findMember(string id, string password);
 	vector<Member> getAllMembers();
 };
 
