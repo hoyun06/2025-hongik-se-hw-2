@@ -2,8 +2,8 @@
 
 void RegisteredMember::addMember(string id, string password, string tel)
 {
-	Member member(id, password, tel);
-	this->registeredMemberCollection.addMember(member);
+	Member newMember(id, password, tel);
+	this->registeredMemberCollection.addMember(newMember);
 }
 
 Member* RegisteredMember::findMember(string id, string password)
