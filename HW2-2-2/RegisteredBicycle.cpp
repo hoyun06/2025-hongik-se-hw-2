@@ -2,8 +2,8 @@
 
 void RegisteredBicycle::addBicycle(string bikeId, string name)
 {
-	Bicycle bicycle(bikeId, name);
-	registeredBicycleCollection.addBicycle(bicycle);
+	Bicycle newBicycle(bikeId, name);
+	registeredBicycleCollection.addBicycle(newBicycle);
 }
 
 Bicycle RegisteredBicycle::findBicycle(string bikeId)
