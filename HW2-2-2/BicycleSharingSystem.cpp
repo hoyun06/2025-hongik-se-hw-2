@@ -5,12 +5,17 @@
 #include "Login.h"
 #include "Logout.h"
 #include "Signup.h"
+#include "ExitSystem.h"
 #include "AddBicycle.h"
 #include "RentBicycle.h"
 #include "RegisteredMember.h"
 #include "RegisteredBicycle.h"
 #include "ShowBicycleRentalInfo.h"
 
+// 파일 입출력을 위한 객체들 초기화
+// 시스템에 등록된 Member와 Bicycle을 유지하는 RegisteredMember, RegisteredBicycle 객체 생성
+// 입력 파일에서 메뉴를 읽고 그에 대응되는 use case를 처리할 수 있는 control class에 위임
+// 입력 파일에서 '종료' 메뉴를 읽을 시 시스템 종료 use case를 처리하는 control class에 위임
 void BicycleSharingSystem::run()
 {
 	ifstream inFp;
@@ -76,8 +81,8 @@ void BicycleSharingSystem::run()
 			switch (menuLevel2)
 			{
 			case 1:
+				new ExitSystem(outFp);
 				isProgramExit = 1;
-				outFp << "6.1. 종료";
 				break;
 			}
 			break;
